@@ -1,0 +1,11 @@
+birthday1 = "12/01/2009"
+birthday2 = "07/06/2011"
+birthday3 = "09/11/1998"
+birthday4 = "27/08/1984"
+birthday5 = "04/02/1999"
+
+print(birthday1)
+print(birthday2)
+print(birthday3)
+print(birthday4)
+print(birthday5)
