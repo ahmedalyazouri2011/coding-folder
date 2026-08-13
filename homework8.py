@@ -1,8 +1,9 @@
-number = int(input(" Enter a number: "))
+number = int(input("Enter a number: "))
+power = int(input("Enter the power: "))
 
-count = 0
+answer = 1
+while power > 0:
+    answer *= number
+    power -= 1
 
-while number > 0:
-    number = number // 10
-    count = count + 1
-print(count)
+print(answer)
