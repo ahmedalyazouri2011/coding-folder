@@ -1,12 +1,9 @@
-try:
-    age = int(input("Enter your age: "))
+import math
 
-    if age < 0:
-        print("Age is not correct")
-    elif age % 2 == 0:
-        print("Your age is even")
-    else:
-        print("Your age is odd")
+angle = float(input("Enter an angle: "))
 
-except:
-    print("Please enter a valid age")
+radian = math.radians(angle)
+
+print("Sin =", math.sin(radian))
+print("Cos =", math.cos(radian))
+print("Tan =", math.tan(radian))
